@@ -34,9 +34,13 @@ npm run build
 
 
 技术选型
+
 前端：
+
 三件套 + React + 组件库 Ant Design + Umi + Ant Design Pro
+
 后端：
+
 ● java
 ● spring
 ● springmvc
