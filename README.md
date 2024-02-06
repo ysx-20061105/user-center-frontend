@@ -1,8 +1,4 @@
-# Ant Design Pro
-
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
-
-## Environment Prepare
+# user-center
 
 Install `node_modules`:
 
@@ -18,9 +14,6 @@ yarn
 
 ## Provided Scripts
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
 
 ### Start project
 
@@ -34,24 +27,26 @@ npm start
 npm run build
 ```
 
-### Check code style
+需求分析
+1. 登陆/注册
+2. 用户管理（仅管理员可见）对用户的查询或修改
+3. 用户校验
+技术选型
+前端：
+三件套 + React + 组件库 Ant Design + Umi + Ant Design Pro
+后端：
+● java
+● spring
+● springmvc
+● mybatis
+● mybatis-plus
+● springboot
+● junit
+● mysql
 
-```bash
-npm run lint
-```
+![image](https://github.com/ysx-20061105/user-center-frontend/assets/121438322/2a218049-64e1-4e5b-a538-c9057a157d2b)
+![image](https://github.com/ysx-20061105/user-center-frontend/assets/121438322/50954ac4-5465-4e94-9527-60812c6f3ad6)
+![image](https://github.com/ysx-20061105/user-center-frontend/assets/121438322/ebd79854-52d0-41c8-b2a9-2de08229e8d0)
 
-You can also use script to auto fix some lint error:
 
-```bash
-npm run lint:fix
-```
 
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
